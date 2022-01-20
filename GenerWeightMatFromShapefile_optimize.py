@@ -29,9 +29,9 @@ driver = ogr.GetDriverByName('ESRI Shapefile')
 
 import geopandas as gpd
 
-OutputDir="R:/2022/LCRA/NWM_SM/BasinMasks/BasinWeightTable1/"
+OutputDir="R:/2022/LCRA/NWM_SM/BasinMasks/BasinWeightTable/"
 if not os.path.exists(OutputDir):    os.mkdir(OutputDir) 
-OutputDirSHP="R:/2022/LCRA/NWM_SM/BasinMasks/SHP1/"
+OutputDirSHP="R:/2022/LCRA/NWM_SM/BasinMasks/SHP/"
 if not os.path.exists(OutputDirSHP):    os.mkdir(OutputDirSHP) 
 
 # Save the tif mask file if Flag==1 
